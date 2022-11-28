@@ -3,26 +3,33 @@
     padding: 0;
 }
 body{
-   background-image:url("https://c4.wallpaperflare.com/wallpaper/703/42/453/light-background-haze-green-wallpaper-preview.jpg");
+   background-image:url("https://wallpapercave.com/wp/wp4531533.jpg");
    background-repeat: no-repeat;
    background-size:cover;
 }
+.homebg::after{
+   content: '';
+   position: absolute;
+   z-index:-1;
+   inset: 0;
+   background:white;
+   opacity:.5;
+}
 .navbar .stores{
-    margin-top:10px;
     margin-left: 10px;
-    margin-right:600px;
+    margin-right:300px;
     font-weight:bolder;
-    font-size:40px;
+    font-size:50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:rgba(212, 96, 18, 0.938);
+    color:rgb(192, 49, 120);
 }
 .navbar{
-   margin-top:10px;
+   margin-top:0px;
     padding-top: 0px;
     height:50px;
  }
  .navbar .icons{
-    font-size: 22px;
+    font-size:38px;
     font-family: cursive;
     font-weight: bolder;
     
@@ -36,12 +43,12 @@ body{
      margin-right:50px;;
  }
  .navbar li a{
-   color:rgba(212, 96, 18, 0.938);
+   color:rgb(207, 15, 15);
    text-shadow: 5px;
     text-decoration: none;
  }
  .navbar li a:hover{
-    color:black;
+    color:rgb(23, 32, 112);
     border-bottom:2px solid rgb(12, 11, 11) ;
  }
  .logo{
